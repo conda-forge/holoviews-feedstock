@@ -7,8 +7,7 @@ package:
 source:
   fn: holoviews-{{ version }}.tar.gz
   url: https://github.com/ioam/holoviews/archive/v{{version}}.tar.gz
-  sha256: a8bd74f0d099a39af059147953785be78662b0b3
-
+  sha256: 24784b211a7470ac256a3250ba950432b6f8ba75cc550c96a0d4c19768934140
 build:
   number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
