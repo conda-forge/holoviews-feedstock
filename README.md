@@ -14,12 +14,15 @@ Summary: Stop plotting your data - annotate your data and let it visualize itsel
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/holoviews-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/holoviews-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/holoviews-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/holoviews-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/holoviews/badges/version.svg)](https://anaconda.org/conda-forge/holoviews)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/holoviews/badges/downloads.svg)](https://anaconda.org/conda-forge/holoviews)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-holoviews-green.svg)](https://anaconda.org/conda-forge/holoviews) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/holoviews.svg)](https://anaconda.org/conda-forge/holoviews) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/holoviews.svg)](https://anaconda.org/conda-forge/holoviews) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/holoviews.svg)](https://anaconda.org/conda-forge/holoviews) |
 
 Installing holoviews
 ====================
