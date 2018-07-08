@@ -9,6 +9,10 @@ Feedstock license: BSD 3-Clause
 
 Summary: Stop plotting your data - annotate your data and let it visualize itself.
 
+HoloViews is an open-source Python library designed to make data analysis
+and visualization seamless and simple. With HoloViews, you can usually
+express what you want to do in very few lines of code, letting you focus on
+what you are trying to explore and convey, not on the process of plotting.
 
 
 Current build status
