@@ -1,18 +1,17 @@
-{% set version = "1.10.7" %}
+{% set version = "1.10.8" %}
 
 package:
   name: holoviews
   version: {{ version }}
 
 source:
-  fn: holoviews-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/h/holoviews/holoviews-{{ version }}.tar.gz
-  sha256: 4d1753ae27486e324e2ee5d6a239bf8cc4a9acafecc0e38cb60a476bd7b4abc9
+  sha256: 2ce380ed1f678efadbeb3c376e2b90f7bd67e489db6f308c2d5abefabc37b36a
 
 build:
-  noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv"
 
 
 requirements:
@@ -24,12 +23,22 @@ requirements:
     - python
     - param >=1.6.1,<2.0
     - numpy >=1.0
-    - matplotlib >=2.1
-    - bokeh >=0.12.15,<=0.13.0
-    - jupyter
+    - pyviz_comms >=0.6.0
+    # notebook-dependencies
+    - ipython
+    - pyzmq
+    - jinja2
+    - tornado
+    - jsonschema
     - notebook
-    - ipython >=5.4.0
-    - pyviz_comms
+    - pygments
+    # recommended
+    - matplotlib >=2.1
+    - bokeh >=0.12.15
+    # extras
+    - pandas
+    - seaborn
+
 
 test:
   imports:
