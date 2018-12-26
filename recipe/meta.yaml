@@ -7,10 +7,6 @@ package:
 source:
   url: https://pypi.io/packages/source/h/holoviews/holoviews-{{ version }}.tar.gz
   sha256: 247d05923d42767b5b0785f59be640712467178ba671657b3587d9e38f69a2a8
-  patches:
-    # Already merged, can be dropped with the next release
-    # https://github.com/ioam/holoviews/pull/3119/files
-    - backport_3119.patch
 
 build:
   noarch: python
