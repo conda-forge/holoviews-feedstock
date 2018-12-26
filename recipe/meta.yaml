@@ -1,12 +1,12 @@
-{% set version = "1.10.9" %}
+{% set version = "1.11.0" %}
 
 package:
   name: holoviews
   version: {{ version }}
 
 source:
-  url: https://assets.holoviews.org/packages/holoviews-{{ version }}.tar.gz
-  sha256: 07103bff532aad93669e55527e69886aeec1dbf3998ab3eb1b11edb15a146aff
+  url: https://pypi.io/packages/source/h/holoviews/holoviews-{{ version }}.tar.gz
+  sha256: 247d05923d42767b5b0785f59be640712467178ba671657b3587d9e38f69a2a8
   patches:
     # Already merged, can be dropped with the next release
     # https://github.com/ioam/holoviews/pull/3119/files
@@ -25,14 +25,14 @@ requirements:
     - param >=1.6.1,<2.0
   run:
     - python
-    - param >=1.6.1,<2.0
+    - param >=1.8.0,<2.0
     - numpy >=1.0
     - matplotlib >=2.1
-    - bokeh >=0.12.15,<1.1.0
+    - bokeh >=1.0.0,<1.1.0
     - jupyter
     - notebook
     - ipython >=5.4.0
-    - pyviz_comms
+    - pyviz_comms >=0.7.0
 
 test:
   imports:
