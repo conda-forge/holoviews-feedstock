@@ -3,7 +3,7 @@ About holoviews
 
 Home: www.holoviews.org
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
