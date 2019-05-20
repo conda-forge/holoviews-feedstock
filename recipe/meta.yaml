@@ -1,4 +1,4 @@
-{% set version = "1.12.2" %}
+{% set version = "1.12.3" %}
 
 package:
   name: holoviews
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/h/holoviews/holoviews-{{ version }}.tar.gz
-  sha256: 62004df8b60dff462b0e0b85506a357ba523f4b172819a2e8505992f95759444
+  sha256: df64c0f163fe8b43d28cf5bcdeb8abc45d882aedca525b870f17987edd0c80a2
 
 build:
   noarch: python
