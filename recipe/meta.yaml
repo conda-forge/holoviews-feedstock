@@ -10,7 +10,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv"
   entry_points:
     - holoviews = holoviews.util.command:main
@@ -26,7 +26,6 @@ requirements:
     - numpy >=1.0
     - matplotlib >=2.1
     - bokeh >=1.1.0
-    - jupyter
     - notebook
     - ipython >=5.4.0
     - pyviz_comms >=0.7.2
