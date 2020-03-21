@@ -9,9 +9,9 @@ source:
   sha256: c63f76d1ce2261eb0cd147a24be25daff399e7df2c3d6ade3e813d2e9cb7d42f
 
 build:
+  number: 1
   noarch: python
-  number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv"
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
   entry_points:
     - holoviews = holoviews.util.command:main
 
@@ -25,7 +25,7 @@ requirements:
     - param >=1.9.0,<2.0
     - numpy >=1.0
     - matplotlib-base >=2.1
-    - bokeh >=1.1.0
+    - bokeh >=1.1.0,<2
     - notebook
     - ipython >=5.4.0
     - pyviz_comms >=0.7.2
@@ -44,7 +44,7 @@ about:
     and visualization seamless and simple. With HoloViews, you can usually
     express what you want to do in very few lines of code, letting you focus on
     what you are trying to explore and convey, not on the process of plotting.
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE.txt
   dev_url: https://github.com/ioam/holoviews
   doc_url: http://holoviews.org/getting_started/index.html
