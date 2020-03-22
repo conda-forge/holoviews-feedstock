@@ -24,6 +24,7 @@ requirements:
   run:
     - python
     - param >=1.9.0,<2.0
+    - panel >=0.7.0
     - numpy >=1.0
     - pandas >=0.20.0
     - matplotlib-base >=2.2
@@ -36,6 +37,7 @@ test:
   imports:
     - holoviews
   commands:
+    - pip check
     - holoviews -h
 
 about:
