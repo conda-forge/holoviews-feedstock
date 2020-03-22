@@ -39,6 +39,8 @@ test:
   commands:
     - pip check
     - holoviews -h
+  requires:
+    - pip
 
 about:
   home: www.holoviews.org
