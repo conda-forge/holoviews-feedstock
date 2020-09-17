@@ -5,7 +5,7 @@ Home: www.holoviews.org
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Stop plotting your data - annotate your data and let it visualize itself.
 
