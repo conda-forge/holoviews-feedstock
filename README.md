@@ -5,9 +5,13 @@ Home: www.holoviews.org
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/holoviews-feedstock/blob/master/LICENSE.txt)
 
 Summary: Stop plotting your data - annotate your data and let it visualize itself.
+
+Development: https://github.com/ioam/holoviews
+
+Documentation: http://holoviews.org/getting_started/index.html
 
 HoloViews is an open-source Python library designed to make data analysis
 and visualization seamless and simple. With HoloViews, you can usually
