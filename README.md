@@ -1,7 +1,7 @@
 About holoviews
 ===============
 
-Home: www.holoviews.org
+Home: https://holoviews.org
 
 Package license: BSD-3-Clause
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/holoviews-feeds
 
 Summary: Stop plotting your data - annotate your data and let it visualize itself.
 
-Development: https://github.com/ioam/holoviews
+Development: https://github.com/holoviz/holoviews
 
 Documentation: http://holoviews.org/getting_started/index.html
 
