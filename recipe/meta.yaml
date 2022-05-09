@@ -1,4 +1,4 @@
-{% set version = "1.14.8" %}
+{% set version = "1.14.9" %}
 
 package:
   name: holoviews
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/h/holoviews/holoviews-{{ version }}.tar.gz
-  sha256: 6c365599a2cb16793bb627c9b5c5430982bb591c9de8885002ff91b539b61133
+  sha256: 9912390aa279f3fbdbe4df35518b12e87cbeccd7915e721911dee5556db6306a
 
 build:
   number: 0
@@ -31,6 +31,7 @@ requirements:
     - bokeh >=1.1.0
     - colorcet
     - pyviz_comms >=0.7.4
+    - packaging
 
 test:
   imports:
