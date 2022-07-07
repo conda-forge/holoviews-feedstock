@@ -1,4 +1,4 @@
-{% set version = "1.14.9" %}
+{% set version = "1.15.0" %}
 
 package:
   name: holoviews
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/h/holoviews/holoviews-{{ version }}.tar.gz
-  sha256: 9912390aa279f3fbdbe4df35518b12e87cbeccd7915e721911dee5556db6306a
+  sha256: 312e60d24406c3a7aec46261836b38dba2585e366bccb45e47479504805eb5ba
 
 build:
   number: 0
@@ -17,14 +17,15 @@ build:
 
 requirements:
   host:
-    - python >=2.7
+    - python >=3.7
     - pip
-    - pyct
-    - param >=1.6.1,<2.0
+    - pyct >=0.4.4
+    - param >=1.7.0,<2.0
+    - setuptools >=30.3.0
   run:
-    - python >=2.7
+    - python >=3.7
     - param >=1.9.3,<2.0
-    - panel >=0.8.0
+    - panel >=0.13.1
     - numpy >=1.0
     - pandas >=0.20.0
     - matplotlib-base >=2.2
