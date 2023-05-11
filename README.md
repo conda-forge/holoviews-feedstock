@@ -1,11 +1,11 @@
-About holoviews
-===============
+About holoviews-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/holoviews-feedstock/blob/main/LICENSE.txt)
 
 Home: https://holoviews.org
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/holoviews-feedstock/blob/main/LICENSE.txt)
 
 Summary: Stop plotting your data - annotate your data and let it visualize itself.
 
@@ -153,6 +153,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@Hoxbro](https://github.com/Hoxbro/)
 * [@basnijholt](https://github.com/basnijholt/)
 * [@jlstevens](https://github.com/jlstevens/)
 * [@maximlt](https://github.com/maximlt/)
