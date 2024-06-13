@@ -20,7 +20,7 @@ requirements:
     - python >=3.9
     - pip
     - hatchling
-    - hatch-vsc
+    - hatch-vcs
   run:
     - python >=3.9
     - bokeh >=3.1
