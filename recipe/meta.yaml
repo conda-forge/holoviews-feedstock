@@ -25,7 +25,7 @@ requirements:
     - python >=3.9
     - bokeh >=3.1
     - colorcet
-    - matplotlib-base >=3
+    - matplotlib-base >=3.0
     - numpy >=1.21
     - packaging
     - pandas >=1.3
