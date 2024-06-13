@@ -37,7 +37,7 @@ test:
   imports:
     - holoviews
   commands:
-    # - pip check
+    - pip check
     - holoviews -h
   requires:
     - pip
