@@ -9,7 +9,7 @@ source:
   sha256: 29d183045fafa3d846deda999d9687b99b8abdc1a8c06712e54afa576bb02b3e
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
@@ -17,12 +17,12 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
     - hatchling
     - hatch-vcs
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - bokeh >=3.1
     - colorcet
     - matplotlib-base >=3.0
@@ -41,6 +41,7 @@ test:
     - holoviews -h
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://holoviews.org
