@@ -1,4 +1,4 @@
-{% set version = "1.21.0" %}
+{% set version = "1.22.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/h/holoviews/holoviews-{{ version }}.tar.gz
-  sha256: 837885ab2fa376677f21dae0b2a2aeb94ba6db96e9fcb3824cdb899538ee5032
+  sha256: 2bd3eb5ef5062b893a56c4c42077a3ed92314a92f378d2bc77c75e017b86edba
 
 build:
   number: 0
@@ -27,6 +27,7 @@ requirements:
     - bokeh >=3.1
     - colorcet
     - matplotlib-base >=3.0
+    - narwhals >=2
     - numpy >=1.21
     - packaging
     - pandas >=1.3
