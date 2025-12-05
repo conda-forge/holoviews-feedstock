@@ -23,7 +23,6 @@ requirements:
     - hatchling
     - hatch-vcs
   run:
-    - pyviz-comms >=2.1
     - python >={{ python_min }}
     - bokeh >=3.1
     - colorcet
